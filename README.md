@@ -2,11 +2,20 @@
 
 Inhoudsopgave onderwerpen
 * Inleiding (zie ook https://confluence.hl7.org/display/HNETH/Terminology+Kick-off+%28Hands-on%29+Implementatie+Gids+NL+16e+HL7-WGM)
+    - In veel XIS systemen kan je displayName aanpassen
+    - Dit leidt tot de situatie waar in huidige berichten 70% van de display values niet klopt met het codesystem: of dit een wenselijke situatie is, is onderwerp van discussie
+    - Bovenstaande is wat de werkgroep betreft aanleiding tot het schrijven van een landelijke richtlijn voor het gebruik van terminologie in zorgsystemen (incl de context van uitwisseling)
 * Samenwerking
 ** HL7 NL en Nictiz NTS
+    - De Nationale Terminologieserver van Nictiz biedt de mogelijkheid om terminologie te valideren tegen de meest recente versie in de Nederlandse taal. Voor deze server ook werkt met de HL7 validator zijn er een aantal stappen nodig
+
 ** Relatie met HL7 International HTA/Vocab/TSMG
 * Community vertalingen
-** Mogelijke tool https://crowdin.com @Hidde maakt voorbeeld
+** Mogelijke tool https://crowdin.com 
+    - @Hidde maakt voorbeeld
+    - Validatie door gecertificeerd terminologen - inzet Nictiz?
+    - Overname in release van bv SNOMED?
+
 * Waar zijn de codesystemen in beheer? 
 * Bronsystemen
 ** Voorbeeld Rol van de NTS en hoe de NTS te gebruiken 
