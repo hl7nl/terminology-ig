@@ -22,6 +22,9 @@ Wat statistieken
   - Hoe gebruik je terminology onderdeel van FHIR in een client? Hoe roep je wat aan.
   - Omgaan met ```display```
   - Correcte display voor uitwisseling (patient friendly nl / nl / en)
+  - HL7 $validator connectie met NTS
+    - Nu door authenticatieproblemen niet nodig
+    - @Roel Barelds neemt contact op met Nictiz
   - Crowdsourced vertalingen
     - Voorstel van de groep om een systeem voor crowdsourcen van missende vertalingen voor terminologie op te zetten.
     - Feikje Hielkema, Nictis terminologiecentrum:
@@ -35,4 +38,3 @@ Wat statistieken
       Groeten,
 
       Feikje
-  - ...
