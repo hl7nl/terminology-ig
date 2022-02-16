@@ -22,4 +22,17 @@ Wat statistieken
   - Hoe gebruik je terminology onderdeel van FHIR in een client? Hoe roep je wat aan.
   - Omgaan met ```display```
   - Correcte display voor uitwisseling (patient friendly nl / nl / en)
+  - Crowdsourced vertalingen
+    - Voorstel van de groep om een systeem voor crowdsourcen van missende vertalingen voor terminologie op te zetten.
+    - Feikje Hielkema, Nictis terminologiecentrum:
+
+
+      Hoi Roel,
+
+      Voor onvertaalde SNOMED-codes wil ik jullie toch met klem aanraden om een vertaling bij ons aan te vragen. Als het volume niet al te hoog is (beperkt tot hooguit een paar honderd), pakken we dit direct op en heb je een officiële vertaling bij de volgende SNOMED-editie. Voor patiëntvriendelijke vertalingen voor SNOMED kun je het beste overleggen met mijn collega Natasha Krul.
+      Wat zijn de andere stelsels waar vertalingen ontbreken? LOINC neem ik aan, maar wat nog meer? Voor LOINC en UCUM sluit ik graag aan. Voor andere stelsels hebben we wellicht weer andere collega’s nodig 😊
+
+      Groeten,
+
+      Feikje
   - ...
