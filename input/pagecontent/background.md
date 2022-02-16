@@ -7,10 +7,11 @@ Wat statistieken
 - In huidige berichten klopt 70% van de display values niet met het codesystem
 
 # Wat is een FHIR Implementatie Gids
-## Voorbeelden en onderdelen
-- https://terminology.hl7.org/
-- http://hl7.org/fhir/us/core/terminology.html
-- https://build.fhir.org/ig/HL7/fhir-ips/terminology.html
+## Bronnen
+- Terminologieserver HL7 int: https://terminology.hl7.org/
+- Voorbeeld US core terminology: http://hl7.org/fhir/us/core/terminology.html
+- Voorbeeld IG: https://build.fhir.org/ig/HL7/fhir-ips/terminology.html
+- Confluence terminologie HL7 NL: https://confluence.hl7.org/display/HNETH/Terminology
 
 # Stellingen
 - Alleen code is niet voldoende voor adequate uitwisseling. Bij het uitwisselen dient een bronsysteem altijd de laatste versie van de ```display``` opzoeken in het bronstelsel, of de ```display``` in de versie van het concept dat uitgewisseld wordt. 
