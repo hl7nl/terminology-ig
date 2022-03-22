@@ -13,16 +13,15 @@ Wat statistieken
 - Voorbeeld IG: https://build.fhir.org/ig/HL7/fhir-ips/terminology.html
 - Confluence terminologie HL7 NL: https://confluence.hl7.org/display/HNETH/Terminology
 
-# Stellingen
-- Alleen code is niet voldoende voor adequate uitwisseling. Bij het uitwisselen dient een bronsysteem altijd de laatste versie van de ```display``` opzoeken in het bronstelsel, of de ```display``` in de versie van het concept dat uitgewisseld wordt. 
-- Een stelling t.a.v. een afwijkende ```display``` tussen bericht en bronstelsel moet nog geformuleerd worden
-- Internationaal aspect (denk ook aan IPS); in NL wordt vanzelfsprekend vaak de NL ```display``` waarde opgeslagen. Wat is de geadviseerde werkwijze voor uitwisselen? Opties: geen display meesturen, laatste lokale versie meesturen, anders? 
-- Patient Friendly terms - correcte display term is: patient friendly (nederlands) > nederlands > engels?
+# Standpunten
+- Alleen een ```concept.code``` is niet voldoende voor adequate uitwisseling. Bij het uitwisselen dient een bronsysteem altijd de laatste versie van de ```display``` uit het bronstelsel mee te sturen, of de ```display``` in de versie van het concept dat uitgewisseld wordt wanneer een specifieke versie bedoeld wordt. Ook al is de ```code``` in principe voldoende voor gestructureerde uitwisseling, adviseert de werkgroep het meesturen van een ```display``` voor het geval de ontvangende partij het stelsel niet in bezit heeft. 
+- De werkgroep is van mening dat een ```display``` in uitwisseling niet af mag wijken van de ```display``` in het bronstelsel.
+- Een eventuele context of aanvullende details kunnen in de text property van een ```codeableConcept``` opgeslagen worden.
+- In internationale uitwisseling kan eventueel een Engelse of anders toepasselijke ```display``` worden meegestuurd
+- Patient Friendly terms - in het algemeen dient de meest specifieke ```display``` gebruikt te worden. In het geval van uitwisseling naar bijvoorbeeld een PGO kan op basis van context een patiëntvriendelijke term getoond worden. Correcte ```display``` term zou in dit geval kunnen zijn: patient friendly (Nederlands) > Nederlands > Engels.
 
 # Discussie, wat is de scope van de implementatiegids
-  - Hoe gebruik je terminology onderdeel van FHIR in een client? Hoe roep je wat aan.
-  - Omgaan met ```display```
-  - Correcte display voor uitwisseling (patient friendly nl / nl / en)
+  - Hoe gebruik je terminology onderdeel van FHIR in een client? Hoe roep je wat aan. Queries?
   - HL7 $validator connectie met NTS
     - Nu door authenticatieproblemen niet nodig
     - @Roel Barelds neemt contact op met Nictiz
